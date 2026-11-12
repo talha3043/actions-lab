@@ -1,4 +1,3 @@
-﻿@'
 name: Hello Actions
 
 on:
@@ -26,4 +25,3 @@ jobs:
 
       - name: List files
         run: ls -la
-'@ | Out-File -Encoding utf8 .github\workflows\hello.yml
